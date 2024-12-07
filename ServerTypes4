@@ -1,0 +1,30 @@
+Name Server Types
+
+Labels
+[
+	{
+		Name Unturnov
+		Text <color=#FFD700>LifeRP</color>
+	}
+	{
+		Name PVP
+		Text <color=#00CED1>Semi-Vanilla</color>
+	}
+]
+Rules
+[
+	{
+                Action Allow
+                Description Unturnov Servers
+                Label Unturnov
+                Type Name
+                Regex (?!)(Unturnov)
+        }
+	{
+                Action Deny
+                Description PVP Servers
+                Label PVP
+                Type Name
+                Regex (?!)(PVP)
+	}
+]
