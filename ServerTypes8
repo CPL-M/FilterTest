@@ -1,0 +1,41 @@
+Name Server Types
+
+Labels
+[
+	{
+		Name Private
+		Text <color=#FFD700>Private</color>
+	}
+	{
+		Name PVP
+		Text <color=#00CED1>Semi-Vanilla</color>
+	}
+{
+		Name Uncreated
+		Text <color=#00CED1>Uncreated</color>
+	}
+]
+Rules
+[
+	{
+                Action Allow
+                Description Private Servers
+                Label Private
+                Type Name
+                Regex (Private)
+  }
+	{
+                Action Allow
+                Description PVP Servers
+                Label PVP
+                Type Name
+                Regex (PVP)
+	}
+  {
+                Action Allow
+                Description Uncreated Servers
+                Label Uncreated
+                Type Name
+                Regex (Uncreated)
+	}
+]
