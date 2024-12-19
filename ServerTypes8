@@ -18,24 +18,24 @@ Labels
 Rules
 [
 	{
-                Action Allow
+                Action Label
                 Description Private Servers
                 Label Private
                 Type Name
-                Regex (Private)
+                Regex [Private]
   }
 	{
-                Action Allow
+                Action Label
                 Description PVP Servers
                 Label PVP
                 Type Name
-                Regex (PVP)
+                Regex [PVP]
 	}
   {
-                Action Allow
+                Action Label
                 Description Uncreated Servers
                 Label Uncreated
                 Type Name
-                Regex (Uncreated)
+                Regex [Uncreated]
 	}
 ]
