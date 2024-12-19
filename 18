@@ -1,0 +1,118 @@
+Type ServerCuration
+
+Name Server Types
+
+Labels 
+[ 
+	{ 
+		Name LifeRP 
+		Text <color=#FFD700>LifeRP</color> 
+	}
+	{ 
+		Name Semi-Vanilla 
+		Text <color=#00CED1>Semi-Vanilla</color> 
+	}
+	{ 
+		Name Unturnov 
+		Text <color=#7B68EE>Unturnov</color> 
+	}
+	{ 
+		Name PVP 
+		Text <color=#FF4500>PVP</color> 
+	}
+	{ 
+		Name PVE 
+		Text <color=#32CD32>PVE</color>
+	}
+	{
+		Name Military 
+		Text <color=#556B2F>Military</color> 
+	}
+	{ 
+		Name Rust 
+		Text <color=#D2691E>Rust</color> 
+	}
+	{ 
+		Name Medieval 
+		Text <color=#6A5ACD>Medieval</color> 
+	}
+	{ 
+		Name Vanilla
+		Text <color=#F5DEB3>Vanilla</color> 
+	}
+	{ 
+		Name Sandbox 
+		Text <color=#F0E68C>Sandbox</color> 
+	}
+	{ 
+		Name CRP 
+		Text <color=#4682B4>CRP</color> 
+	} 
+]
+
+Rules
+[
+        {
+                Action Label
+                Description LifeRP Servers
+                Label LifeRP
+                Type Name
+                Regex (?i)(LifeRP)
+        }
+        {
+                Action Deny
+                Description Semi-Vanilla Servers
+                Label Semi-Vanilla
+                Type Name
+                Regex (?i)(Semi-Vanilla)
+        }
+        {
+                Action Label
+                Description Unturnov Servers
+                Label Unturnov
+                Type Name
+                Regex (?i)(Unturnov)
+        }
+        {
+                Action Label
+                Description PVP Servers
+                Label PVP
+                Type Name
+                Regex (?i)(PVP)
+        }
+        {
+                Action Label
+                Description Military Servers
+                Label Military
+                Type Name
+                Regex (?i)(Military)
+        }
+        {
+                Action Label
+                Description Rust Servers
+                Label Rust
+                Type Name
+        	      Regex (?i)(Rust)
+        }
+        {
+                Action Label
+                Description Medieval Servers
+                Label Medieval
+                Type Name
+                Regex (?i)(Medieval)
+        }
+        {
+                Action Label
+                Description Sandbox Servers
+                Label Sandbox
+                Type Name
+                Regex (?i)(Sandbox)
+        }
+        {
+                Action Label
+                Description CRP Servers
+                Label CRP
+                Type Name
+                Regex (?i)(CRP)
+        }
+]
