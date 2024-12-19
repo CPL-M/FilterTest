@@ -1,0 +1,44 @@
+Type ServerCuration
+
+Name Server Types
+
+Labels 
+[ 
+	{ 
+		Name LifeRP 
+		Text <color=#FFD700>LifeRP</color> 
+	}
+	{ 
+		Name Semi-Vanilla 
+		Text <color=#00CED1>Semi-Vanilla</color> 
+	}
+	{ 
+		Name Unturnov 
+		Text <color=#7B68EE>Unturnov</color> 
+	}
+]
+
+Rules
+[
+        {
+                Action Label
+                Description LifeRP Servers
+                Label LifeRP
+                Type Name
+                Regex (?i)(LifeRP)
+        }
+        {
+                Action Deny
+                Description Semi-Vanilla Servers
+                Label Semi-Vanilla
+                Type Name
+                Regex (?i)(Semi-Vanilla)
+        }
+        {
+                Action Label
+                Description Unturnov Servers
+                Label Unturnov
+                Type Name
+                Regex (?i)(Unturnov)
+        }
+]
